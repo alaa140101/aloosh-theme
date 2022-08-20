@@ -16,20 +16,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <!-- Icon Font Stylesheet -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-  <!-- Libraries Stylesheet -->
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-  <!-- Customized Bootstrap Stylesheet -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Template Stylesheet -->
-  <!-- <link href="/wp-content/themes/aloosh/style.css" rel="stylesheet"> -->
 
   <?php
   wp_head();
@@ -93,7 +80,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/profile.png" alt="">
+          <img class="img-fluid" src="aloosh/theme-template/img/profile.png" alt="">
         </div>
       </div>
     </div>
@@ -142,10 +129,10 @@
         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
           <div class="row g-3 mb-4">
             <div class="col-sm-6">
-              <img class="img-fluid rounded" src="img/about-1.jpg" alt="">
+              <img class="img-fluid rounded" src="theme-template/img/about-1.jpg" alt="">
             </div>
             <div class="col-sm-6">
-              <img class="img-fluid rounded" src="img/about-2.jpg" alt="">
+              <img class="img-fluid rounded" src="theme-template/img/about-2.jpg" alt="">
             </div>
           </div>
           <div class="d-flex align-items-center mb-3">
@@ -392,7 +379,7 @@
       <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
         <div class="col-lg-4 col-md-6 portfolio-item first">
           <div class="portfolio-img rounded overflow-hidden">
-            <img class="img-fluid" src="img/project-1.jpg" alt="">
+            <img class="img-fluid" src="theme-template/img/project-1.jpg" alt="">
             <div class="portfolio-btn">
               <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
               <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
@@ -401,7 +388,7 @@
         </div>
         <div class="col-lg-4 col-md-6 portfolio-item second">
           <div class="portfolio-img rounded overflow-hidden">
-            <img class="img-fluid" src="img/project-2.jpg" alt="">
+            <img class="img-fluid" src="theme-template/img/project-2.jpg" alt="">
             <div class="portfolio-btn">
               <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
               <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
@@ -410,7 +397,7 @@
         </div>
         <div class="col-lg-4 col-md-6 portfolio-item first">
           <div class="portfolio-img rounded overflow-hidden">
-            <img class="img-fluid" src="img/project-3.jpg" alt="">
+            <img class="img-fluid" src="theme-template/img/project-3.jpg" alt="">
             <div class="portfolio-btn">
               <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
               <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
@@ -419,7 +406,7 @@
         </div>
         <div class="col-lg-4 col-md-6 portfolio-item second">
           <div class="portfolio-img rounded overflow-hidden">
-            <img class="img-fluid" src="img/project-4.jpg" alt="">
+            <img class="img-fluid" src="theme-template/img/project-4.jpg" alt="">
             <div class="portfolio-btn">
               <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
               <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
@@ -428,7 +415,7 @@
         </div>
         <div class="col-lg-4 col-md-6 portfolio-item first">
           <div class="portfolio-img rounded overflow-hidden">
-            <img class="img-fluid" src="img/project-5.jpg" alt="">
+            <img class="img-fluid" src="theme-template/img/project-5.jpg" alt="">
             <div class="portfolio-btn">
               <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
               <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
@@ -437,7 +424,7 @@
         </div>
         <div class="col-lg-4 col-md-6 portfolio-item second">
           <div class="portfolio-img rounded overflow-hidden">
-            <img class="img-fluid" src="img/project-6.jpg" alt="">
+            <img class="img-fluid" src="theme-template/img/project-6.jpg" alt="">
             <div class="portfolio-btn">
               <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
               <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
@@ -464,7 +451,7 @@
       <div class="row g-4">
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="team-item position-relative">
-            <img class="img-fluid rounded" src="img/team-1.jpg" alt="">
+            <img class="img-fluid rounded" src="theme-template/img/team-1.jpg" alt="">
             <div class="team-text bg-white rounded-end p-4">
               <div>
                 <h5>Full Name</h5>
@@ -476,7 +463,7 @@
         </div>
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
           <div class="team-item position-relative">
-            <img class="img-fluid rounded" src="img/team-2.jpg" alt="">
+            <img class="img-fluid rounded" src="theme-template/img/team-2.jpg" alt="">
             <div class="team-text bg-white rounded-end p-4">
               <div>
                 <h5>Full Name</h5>
@@ -488,7 +475,7 @@
         </div>
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
           <div class="team-item position-relative">
-            <img class="img-fluid rounded" src="img/team-3.jpg" alt="">
+            <img class="img-fluid rounded" src="theme-template/img/team-3.jpg" alt="">
             <div class="team-text bg-white rounded-end p-4">
               <div>
                 <h5>Full Name</h5>
@@ -511,16 +498,16 @@
       <div class="row justify-content-center">
         <div class="col-lg-3 d-none d-lg-block">
           <div class="testimonial-left h-100">
-            <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.jpg" alt="">
-            <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.jpg" alt="">
-            <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.jpg" alt="">
+            <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="theme-template/img/testimonial-1.jpg" alt="">
+            <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="theme-template/img/testimonial-2.jpg" alt="">
+            <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="theme-template/img/testimonial-3.jpg" alt="">
           </div>
         </div>
         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
           <div class="owl-carousel testimonial-carousel">
             <div class="testimonial-item text-center">
               <div class="position-relative mb-5">
-                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-1.jpg" alt="">
+                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="theme-template/img/testimonial-1.jpg" alt="">
                 <div class="testimonial-icon">
                   <i class="fa fa-quote-left text-primary"></i>
                 </div>
@@ -532,7 +519,7 @@
             </div>
             <div class="testimonial-item text-center">
               <div class="position-relative mb-5">
-                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-2.jpg" alt="">
+                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="theme-template//img/testimonial-2.jpg" alt="">
                 <div class="testimonial-icon">
                   <i class="fa fa-quote-left text-primary"></i>
                 </div>
@@ -544,7 +531,7 @@
             </div>
             <div class="testimonial-item text-center">
               <div class="position-relative mb-5">
-                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-3.jpg" alt="">
+                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="theme-template//img/testimonial-3.jpg" alt="">
                 <div class="testimonial-icon">
                   <i class="fa fa-quote-left text-primary"></i>
                 </div>
@@ -558,9 +545,9 @@
         </div>
         <div class="col-lg-3 d-none d-lg-block">
           <div class="testimonial-right h-100">
-            <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.jpg" alt="">
-            <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.jpg" alt="">
-            <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.jpg" alt="">
+            <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="theme-template/img/testimonial-1.jpg" alt="">
+            <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="theme-template/img/testimonial-2.jpg" alt="">
+            <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="theme-template/img/testimonial-3.jpg" alt="">
           </div>
         </div>
       </div>
@@ -673,20 +660,7 @@
   <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
-  <!-- JavaScript Libraries -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/typed/typed.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
 
-  <!-- Template Javascript -->
-  <script src="js/main.js"></script>
 </body>
 
 </html>
