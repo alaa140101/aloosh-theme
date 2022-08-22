@@ -1,5 +1,18 @@
 <?php
 
+function aloosh_theme_support()
+{
+  // Adds dynamic title tag support
+  add_theme_support('title-tag');
+}
+
+function aloosh_menus()
+{
+}
+
+add_action('after_setup_theme', 'aloosh_theme_support');
+
+
 function aloosh_register_styles()
 {
 
