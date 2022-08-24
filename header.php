@@ -32,6 +32,10 @@
   <!-- Spinner End -->
 
 
+
+
+
+
   <!-- Navbar Start -->
   <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
     <a href="index.html" class="navbar-brand d-block d-lg-none">
@@ -40,6 +44,17 @@
     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
       <span class="navbar-toggler-icon"></span>
     </button>
+
+    <?php
+    wp_nav_menu(
+      array(
+        'menu' => 'primary',
+        'container' => '',
+        'theme_location' => 'primary',
+        'items_wrap' => '<div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">%3$s</div>'
+      )
+    );
+    ?>
     <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
       <div class="navbar-nav ms-auto py-0">
         <a href="#home" class="nav-item nav-link active">Home</a>
@@ -50,12 +65,12 @@
       <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
         <h1 class="text-primary fw-bold m-0">ProMan</h1>
       </a>
-      <div class="navbar-nav me-auto py-0">
+      <!-- <div class="navbar-nav me-auto py-0">
         <a href="#project" class="nav-item nav-link">Projects</a>
         <a href="#team" class="nav-item nav-link">Team</a>
         <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
         <a href="#contact" class="nav-item nav-link">Contact</a>
-      </div>
+      </div> -->
     </div>
   </nav>
   <!-- Navbar End -->

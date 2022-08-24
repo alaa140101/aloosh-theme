@@ -6,11 +6,19 @@ function aloosh_theme_support()
   add_theme_support('title-tag');
 }
 
+add_action('after_setup_theme', 'aloosh_theme_support');
+
 function aloosh_menus()
 {
-}
+  $locations = array(
+    'primary' => "Desktop Primary Top Sidbar",
+    'footer' => "Footer Menu Items"
+  );
 
-add_action('after_setup_theme', 'aloosh_theme_support');
+  register_nav_menus($locations);
+};
+
+add_action('init', 'aloosh_menus');
 
 
 function aloosh_register_styles()
