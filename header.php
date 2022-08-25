@@ -66,7 +66,9 @@
           <h3 class="text-primary mb-3">I'm</h3>
           <h1 class="display-3 mb-3"><?php the_title(); ?></h1>
           <h2 class="typed-text-output d-inline"></h2>
-          <div class="typed-text d-none">Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer</div>
+          <div class="typed-text d-none">
+            <?php echo get_bloginfo('name'); ?>
+          </div>
           <div class="d-flex align-items-center pt-5">
             <a href="" class="btn btn-primary py-3 px-4 me-5">Download CV</a>
             <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
