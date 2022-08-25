@@ -8,7 +8,7 @@
   <meta content="" name="description">
 
   <!-- Favicon -->
-  <link href="img/favicon.ico" rel="icon">
+  <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/favicon.png" rel="shortcut icon">
 
   <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
