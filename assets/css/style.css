@@ -90,7 +90,7 @@ Author URI: https://youtube.com
   transition: 0.5s;
 }
 
-.navbar .navbar-nav a{
+.navbar .navbar-nav a {
   padding: 20px 15px;
   color: var(--dark);
   font-size: 18px;
@@ -104,7 +104,7 @@ Author URI: https://youtube.com
 }
 
 @media (max-width: 991.98px) {
-  .navbar .navbar-nav a{
+  .navbar .navbar-nav a {
     padding: 10px 0;
   }
 }
@@ -235,7 +235,7 @@ Author URI: https://youtube.com
   transition: 3s;
 }
 
-#skill .nav-pills a{
+#skill .nav-pills a {
   color: var(--dark);
 }
 

@@ -6,8 +6,7 @@
       if (!have_comments()) {
         echo "Leave a Comment";
       } else {
-        echo " Comments";
-        echo get_comments_count() . " Comments";
+        echo get_comments_number() . " Comments";
       }
       ?>
     </h1>
@@ -20,60 +19,29 @@
         </div>
       </div>
       <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-        <div class="owl-carousel testimonial-carousel">
-          <?php
-          wp_list_comments(
+        <?php
+        wp_list_comments(
+          array(
+            'avatar_size' => 60,
+            'style' => 'div',
+          )
+        );
+        ?>
+      </div>
+      <div class="col-lg-6 mt-3">
+        <?php
+        if (comments_open()) {
+          comment_form(
             array(
-              'avatar_size' => 120,
-              'style' => 'div',
+              'class_form' => '',
+              'title_replay_before' => '<h2 id="reply-title" class="comment-reply-title ms-2">',
+              'title_reply_after' => '</h2>'
             )
           );
-          ?>
-          <!-- <div class="testimonial-item text-center">
-            <div class="position-relative mb-5">
-              <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonial-1.jpg" alt="">
-              <div class="testimonial-icon">
-                <i class="fa fa-quote-left text-primary"></i>
-              </div>
-            </div>
-            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
-            <hr class="w-25 mx-auto">
-            <h5>Client Name</h5>
-            <span>Profession</span>
-          </div>
-          <div class="testimonial-item text-center">
-            <div class="position-relative mb-5">
-              <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonial-2.jpg" alt="">
-              <div class="testimonial-icon">
-                <i class="fa fa-quote-left text-primary"></i>
-              </div>
-            </div>
-            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
-            <hr class="w-25 mx-auto">
-            <h5>Client Name</h5>
-            <span>Profession</span>
-          </div>
-          <div class="testimonial-item text-center">
-            <div class="position-relative mb-5">
-              <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonial-3.jpg" alt="">
-              <div class="testimonial-icon">
-                <i class="fa fa-quote-left text-primary"></i>
-              </div>
-            </div>
-            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
-            <hr class="w-25 mx-auto">
-            <h5>Client Name</h5>
-            <span>Profession</span>
-          </div> -->
-        </div>
+        }
+        ?>
       </div>
-      <div class="col-lg-3 d-none d-lg-block">
-        <div class="testimonial-right h-100">
-          <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonial-1.jpg" alt="">
-          <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonial-2.jpg" alt="">
-          <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/testimonial-3.jpg" alt="">
-        </div>
-      </div>
+      <hr>
     </div>
   </div>
 </div>
