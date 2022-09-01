@@ -5,7 +5,10 @@
       <img src="<?php the_post_thumbnail_url('thumbnail'); ?>" class="img-fluid post-thumb d-none d-md-flex" alt="">
     </div>
     <div class="ms-sm-4">
-      <h4 class="mb-3"><?php the_title(); ?></h4>
+      <h4 class="mb-3"><a href="<?php the_permalink(); ?>">
+          <?php the_title(); ?>
+        </a>
+      </h4>
       <h6 class="mb-3"><?php the_excerpt(); ?></h6>
       <span><?php the_date(); ?></span>
       <span><?php comments_number(); ?></span>
