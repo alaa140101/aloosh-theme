@@ -55,6 +55,10 @@
         <h1 class="text-primary fw-bold m-0">ProMan</h1>
       </a>
     </div>
+
+    <?php
+    dynamic_sidebar('sidebar-1');
+    ?>
   </nav>
   <!-- Navbar End -->
 

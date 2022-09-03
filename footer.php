@@ -11,6 +11,9 @@
           <br>Distributed By: <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
         </div>
       </div>
+      <?php
+      dynamic_sidebar('footer-1');
+      ?>
     </div>
   </div>
   </div>

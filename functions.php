@@ -55,3 +55,35 @@ function aloosh_register_scripts()
 }
 
 add_action('wp_enqueue_scripts', 'aloosh_register_scripts');
+
+function aloosh_widget_areas()
+{
+
+  register_sidebar(
+    array(
+      'before_title' => '',
+      'after_title' => '',
+      'before_widget' => '<div class="d-flex pt-2">',
+      'after_widget' => '</div>',
+      'name' => 'Sidebar Area',
+      'id' => 'sidebar-1',
+      'description' => 'Sidebar Widget Area'
+
+    )
+  );
+  register_sidebar(
+    array(
+      'before_title' => '',
+      'after_title' => '',
+      'before_widget' => '<div class="row g-5"><div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">',
+      'after_widget' => '</div></div>',
+      'name' => 'Footer Area',
+      'id' => 'footer-1',
+      'description' => 'Footer Widget Area'
+
+
+    )
+  );
+}
+
+add_action('widgets_init', 'aloosh_widget_areas');
